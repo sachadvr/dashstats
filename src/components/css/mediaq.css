@@ -1,0 +1,12 @@
+@media screen and (max-width: 40rem) {
+  #sidebar ul li {
+    margin: auto;
+  }
+  #sidebar ul li a {
+    display: none;
+  }
+  #btn a {
+    display: none;
+  }
+}
+/*# sourceMappingURL=mediaq.css.map */

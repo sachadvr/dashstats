@@ -1,0 +1,47 @@
+#sidebar {
+    overflow: scroll;
+    height: 100vh;
+    border-right: solid 1px black;
+    border-bottom: solid 1px black;
+    flex: 0.2;
+    display: flex;
+    flex-direction: column;
+
+    #title {
+        margin: 10px auto;
+        flex: 0.1;
+    }
+    ul {
+        flex: 0.9;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        gap: 1rem;
+        li {
+            padding: 5px 0;
+            list-style-type: none;
+            &:hover {
+                background-color: rgb(233, 233, 233);
+            }
+            margin-left: 2rem;
+            &#active {
+                &:after {
+                    content: '';
+                    position: absolute;
+                    left: 0rem;
+                    height: 1.8rem;
+                    width: 3px;
+                    background: black;
+                }
+            }
+            a {
+                margin-left: 1em;
+                text-decoration: none;
+                text-transform: bold;
+                color: black;
+                
+                
+            }
+        }
+    }
+}
