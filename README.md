@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to Dashstats 👋</h1>
+<h1 align="center"> Dashstats </h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-0.1-blue.svg?cacheSeconds=2592000" />
   <a href="https://twitter.com/sachadvr" target="_blank">
@@ -10,36 +10,22 @@
 
 ### 🏠 [Homepage](.)
 
-## Install
+## Lancement de React
 
-```sh
-npm install
+```npx start
 ```
 
-## Usage
-
-```sh
-npm run start
-```
-
-## Run tests
-
-```sh
-npm run test
-```
-
-## Author
+## Auteur
 
 👤 **sachadvr**
 
-* Website: https://sachadvr.fr
+* Site: https://sachadvr.fr
 * Twitter: [@sachadvr](https://twitter.com/sachadvr)
 * Github: [@sachadvr](https://github.com/sachadvr)
 * LinkedIn: [@sachadvr](https://linkedin.com/in/sachadvr)
 
-## Show your support
+## Support
 
-Give a ⭐️ if this project helped you!
+ * N'hésitez pas à me contacter au besoin, plus d'infos sur mon site web
 
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
+
