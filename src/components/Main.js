@@ -1,11 +1,12 @@
 import "./css/Main.css";
 
 function Main() {
+    
     return (
         <div id="main">
             <div id="homepage">
                 <div id="search">
-                    <i class="fas fa-search"></i>
+                    <i className="fas fa-search"></i>
                     <input
                         type="search"
                         id="site-search"

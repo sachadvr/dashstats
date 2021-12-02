@@ -40,9 +40,12 @@
   margin: 1rem;
   margin-left: .2rem;
   margin-bottom: 3rem;
+  position: relative;
+  overflow: visible;
 }
 
 #main #homepage #search input {
+  overflow: visible;
   margin-left: 1rem;
   width: 100%;
   -ms-grid-row: 2;
@@ -114,6 +117,7 @@
 }
 
 #main #homepage #secondpanel #grid p {
+  cursor: pointer;
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;

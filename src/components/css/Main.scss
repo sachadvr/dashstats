@@ -25,24 +25,42 @@
             font-size: 1em;
             margin: 1rem;
 
-            i {
-            }
             input {
+                overflow: visible;
                 margin-left: 1rem;
                 width: 100%;
                 grid-area: b;
                 margin-right: 1rem;
                 outline: 0;
                 border: 0px solid transparent;
-
                 
                 &:focus {
                     outline-width: 0;
                 }
                 
+                
             }
             margin-left: .2rem;
             margin-bottom: 3rem;
+            position: relative;
+            overflow: visible;
+
+            // &::after {
+            //     content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore cupiditate molestiae nulla tempora aliquam modi sit magnam accusamus quam vel, libero, vitae quia expedita asperiores iure, mollitia explicabo. Nisi, incidunt.";
+            //     display: none;
+            //     overflow: scroll;
+            //     font-size: .7em;
+
+            //     position: absolute;
+            //     width: 50%;
+            //     text-align: center;
+            //     height: 3rem;
+            //     background-color: rgb(255, 255, 255);
+            //     border: 1px solid black;
+            //     top: calc(100% + .2rem);
+            //     box-shadow: 3px 3px 4px 1px rgba(128, 128, 128, 0.495);
+            //     left: 3rem;
+            // }
         }
         #toppanel {
             display: grid;
@@ -85,6 +103,7 @@
                 flex-wrap: wrap;
                 gap: 20px;
                 p {
+                    cursor: pointer;
                     flex: 1;
                     
                     padding: 30px;

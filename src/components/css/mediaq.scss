@@ -3,8 +3,8 @@
     #sidebar {
         ul li {
             margin: auto;
-            a {
-                display: none;
+            &:not(a > *) {
+                display:none;
             }
         }
     }
