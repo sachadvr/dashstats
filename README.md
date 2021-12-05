@@ -8,14 +8,9 @@
 
 > Dashstats est un projet personnel en reactjs incluant une page de login ainsi qu'une base de donnée, afin d'administrer en temps réel les futures réservations de casarosa.pt 
 
-### 🏠 [Homepage](.)
+### 🏠 [Homepage](https://sachadvr.github.io/dashstats/build/)
 
-## Lancement de React
-
-```npx 
-start
-
-```
+<img src="https://github.com/sachadvr/dashstats/blob/main/screenshot.png?raw=true">
 
 ## Auteur
 
