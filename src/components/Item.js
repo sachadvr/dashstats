@@ -1,6 +1,6 @@
 function Item(props) {
     function check() {
-        if (props.active != null && props.active == "true") {
+        if (props.active != null && props.active === "true") {
             return (
                 <li>
                     

@@ -1,7 +1,13 @@
 import "./css/Main.css";
+import Grid from "./Grid.js";
+import myJson from "../values.json";
 
 function Main() {
-    
+    const newdata = myJson.map((myJson) => {
+        return (
+            <Grid name={myJson.name} value={myJson.value} />
+        )
+    })
     return (
         <div id="main">
             <div id="homepage">
@@ -24,18 +30,8 @@ function Main() {
                 </div>
                 <div id="secondpanel">
                     <div id="grid">
-                        <p>
-                            <i className="far fa-eye"></i>
-                            <span>Views </span>500
-                        </p>
-                        <p>
-                            <i className="far fa-eye"></i>
-                            <span>Visists </span>2000
-                        </p>
-                        <p>
-                            <i className="far fa-eye"></i>
-                            <span>Orders </span>5100
-                        </p>
+                        {newdata}
+                        <Grid name="lol" value="30" />
                     </div>
                 </div>
             </div>
