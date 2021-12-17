@@ -1,0 +1,22 @@
+{
+	"files.exclude": {
+		"**/.git": false,
+		"**/.svn": false,
+		"**/.hg": false,
+		"**/CVS": false,
+		"**/.DS_Store": false,
+		"**/Thumbs.db": false,
+		"**/.classpath": false,
+		"**/.project": false,
+		"**/.settings": false,
+		"**/.factorypath": false,
+		".git": false,
+		".vscode": false,
+		"build": false,
+		"node_modules": false,
+		".DS_Store": false,
+		".gitignore": false,
+		"generate-react-cli.json": false
+	},
+	"explorerExclude.backup": null
+}

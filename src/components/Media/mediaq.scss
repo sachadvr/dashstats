@@ -1,0 +1,17 @@
+@media screen and (max-width: 40rem) {
+  #sidebar {
+    ul li {
+      a {
+        justify-content: center;
+      }
+      span {
+        display: none;
+      }
+    }
+  }
+  #btn {
+    a i {
+      display: none;
+    }
+  }
+}

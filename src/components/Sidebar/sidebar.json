@@ -1,0 +1,22 @@
+[
+  {
+    "className": "fas fa-home",
+    "active": "true",
+    "value":"Home"
+  },{
+    "className": "fas fa-trophy",
+    "value":"Projects"
+  },{
+    "className": "fas fa-house-damage",
+    "value":"Billings"
+  },{
+    "className": "fas fa-user",
+    "value":"Team Members"
+  }, {
+    "className": "fas fa-chart-line",
+    "value":"Home"
+  }, {
+    "className": "fas fa-cog",
+    "value":"Settings"
+  }
+]

@@ -1,0 +1,186 @@
+
+#main {
+    height: 100vh;
+    flex: 0.8;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: scroll;
+
+    #homepage {
+        margin: 3rem 4rem;
+        flex: 1;
+        flex-grow: 2.5;
+        background: white;
+        height: fit-content;
+
+        #search {
+            display: flex;
+            overflow: hidden;
+            padding: 10px;
+            width: 100%;
+            max-width: 35rem;
+            border-radius: 15px;
+            border: 1px solid black;
+            outline: 0;
+            font-size: 1em;
+            margin: 1rem;
+
+            input {
+                overflow: visible;
+                margin-left: 1rem;
+                width: 100%;
+                grid-area: b;
+                margin-right: 1rem;
+                outline: none;
+                border: 0px solid transparent;
+                
+                &:focus {
+                    outline-width: 0;
+                }
+                
+                
+            }
+            margin-left: .2rem;
+            margin-bottom: 3rem;
+            position: relative;
+            overflow: visible;
+
+            // &::after {
+            //     content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore cupiditate molestiae nulla tempora aliquam modi sit magnam accusamus quam vel, libero, vitae quia expedita asperiores iure, mollitia explicabo. Nisi, incidunt.";
+            //     display: none;
+            //     overflow: scroll;
+            //     font-size: .7em;
+
+            //     position: absolute;
+            //     width: 50%;
+            //     text-align: center;
+            //     height: 3rem;
+            //     background-color: rgb(255, 255, 255);
+            //     border: 1px solid black;
+            //     top: calc(100% + .2rem);
+            //     box-shadow: 3px 3px 4px 1px rgba(128, 128, 128, 0.495);
+            //     left: 3rem;
+            // }
+            #results {
+                background: rgba(63, 62, 62, 0.644);
+                color: white;
+                padding:8px;
+                z-index: 8000;
+                border-radius: 8px;
+                position: absolute;
+    
+                top: 100%;
+                width: 60%;
+                margin-left: 1em;
+                overflow: scroll;
+                height: 150px;
+                
+                display:block;
+                
+                p {
+                    &:not(:last-of-type) {
+                        border-bottom: solid 1px black;
+                    }
+                    
+                    display: flex;
+                    align-items: center;
+                    width: 100%;
+                    height: 40px;
+                    padding-left: 20px;
+                    cursor: pointer;
+                &:hover {
+                    background: rgba(142, 141, 141, 0.146);
+                }
+                }
+            }
+        }
+
+        
+        #toppanel {
+            display: grid;
+            grid-template-areas: 
+            "a c"
+            "b .";
+            p {
+                margin: 0;
+                grid-area: a;
+            }
+            span {
+                color:rgb(162, 162, 162);
+                font-size: .7em;
+                font-weight: 200;
+                grid-area: b;
+            }   
+            #btn{
+                color:rgb(128, 128, 128);
+                margin-left: auto;
+                text-decoration: none;
+                padding: 7px 15px;
+                max-width: fit-content;
+                border: 1px solid rgb(218, 218, 218);
+                border-radius: 12px;
+                grid-area: c;
+
+                a {
+                    color:rgb(128, 128, 128);
+                    text-decoration: none;
+                    margin-right: 1rem;
+                }
+        } 
+        }
+
+        #secondpanel {
+            
+            margin: 4rem 0;
+            #grid {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 20px;
+                p {
+                    cursor: pointer;
+                    flex: 1;
+                    
+                    padding: 30px;
+                    border-radius: 30px;
+                    span {
+                        margin-top: 30px;
+                        margin-bottom: 30px;
+                        color: black;
+                        font-size: 1.5em;
+                        font-weight: 500;
+                        display: block;
+                    }
+                    i {
+                        border-radius: 100%;
+                        background: rgb(235, 235, 235);
+                        padding: 10px;
+                    }
+                    box-shadow: 0px 0px 3px 3px rgb(206, 206, 206);
+                    background-color: white;
+                }
+                p:nth-of-type(1) {
+                    color: rgb(199, 193, 193);
+                }
+                p:nth-of-type(2) {
+                    color: blueviolet;
+                }
+                p:nth-of-type(3) {
+                    color: rgb(140, 140, 118);
+                }
+            }
+        }
+        
+    }
+
+    #rightsidebar {
+        margin: 30px;
+        flex: 1;
+        flex-shrink: 1;
+        background: black;
+        color: white;
+        border-radius: 30px;
+        p {
+            margin: 2em 2em;
+        }
+    }
+}
